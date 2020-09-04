@@ -3,26 +3,8 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="C:/Users/behru/IdeaProjects/RestAssuredB12">
         <classes>
-            <class name="goRest.GoRestPostTests">
-                <methods>
-                    <include name="extactingListOfPosts"/>
-                    <include name="creatingPost"/>
-                    <include name="getUserId"/>
-                    <include name="updatePostById"/>
-                    <include name="deletePostById"/>
-                    <include name="getPostIdNegative"/>
-                </methods>
-            </class>
+            <class name="goRest.GoRestPostTests"/>
             <class name="goRest.GoRestUserTests">
-                <methods>
-                    <include name="extactingListOfUsers"/>
-                    <include name="extactingSpecificUser"/>
-                    <include name="creatingUser"/>
-                    <include name="getUserId"/>
-                    <include name="updateUserById"/>
-                    <include name="deleteUserById"/>
-                    <include name="getUserIdNegative"/>
-                </methods>
             </class>
         </classes>
     </test>
